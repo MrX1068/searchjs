@@ -36,7 +36,7 @@
                                 $('.result').css('display', 'block');
                                 alert("No Results Found Search Again...");
                             }
-                            else {
+                            elseif(check.value === " "){
                                 $('.result').css('display', 'none');
                             }
 
