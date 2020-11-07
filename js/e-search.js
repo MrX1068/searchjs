@@ -34,7 +34,7 @@
                             var check = $(".cardItems [data-search*=" + valor + "]").fadeIn('fast');
                             if (check.length === 0 || check.value === " ") {
                                 $('.result').css('display', 'block');
-                                alert("No Results Found");
+                                alert("No Results Found Search Again...");
                             }
                             else {
                                 $('.result').css('display', 'none');
