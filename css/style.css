@@ -1,0 +1,105 @@
+/*coloe : #293249;*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #161b27;
+  color: #ffffff;
+}
+
+.card {
+  background-color: #1d2333;
+}
+
+.banner {
+  width: 100%;
+}
+
+
+
+img {
+  width: 100%;
+}
+
+.navsidebar {
+  position: fixed;
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  background-color: #0b2a6dce;
+
+  overflow-y: hidden;
+  z-index: 1;
+  transition: 0.9s;
+}
+.navContents {
+  text-align: center;
+  top: 25%;
+  margin-top: 30px;
+  position: relative;
+}
+.navContents a {
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+  padding: 20px 20px;
+}
+
+.navContents a:hover {
+background-color:#161b27;
+transition: 0.5s ease-in-out;
+color:#ffffff;
+border-radius: 25px;
+
+}
+.first_child {
+  margin-top: 30px;
+}
+.navsidebar .closebutton {
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  position: absolute;
+  transition: 0.9s ease-out;
+  color: #ffffff;
+}
+
+.closebutton:hover {
+  color: #161b27;
+  
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.9s ease-in;
+  position: absolute;
+}
+.closebutton::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 30px;
+    background-color: red;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    z-index: -1;
+}
+
+.menu {
+    
+   
+    padding: 20px;
+    background-color: #073989;
+    border-radius: 25px;
+}
+.menuposition {
+    display: flex;
+    justify-content: center;
+}
